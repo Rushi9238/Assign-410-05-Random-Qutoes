@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#ffab9f, #ffceb8);
+}
+.card{
+    /* border: 2px solid red; */
+    height: 48%;
+    width: 40%;
+    background-color: #ffcdc2;
+    border-radius: 20px;
+    box-shadow: 5px 15px 10px red;
+}
+#output{
+    /* border: 2px solid green; */
+    height: 75%;
+    width:100%;
+}
+.quotes{
+    /* border: 2px solid red; */
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotes h2{
+    font-size: 2.2rem;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#output p{
+    font-size: 1.5rem;
+    padding-left: 13rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+}
+.footer{
+    /* border: 2px solid green; */
+    height: 25%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    width: 20%;
+    height: 60%;
+    margin-right: 2rem;
+    background-image: linear-gradient(to bottom right,#e8110f, #ffab9f);
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+    border-radius: 5px;
+}
+.footer img{
+    width: 10%;
+    margin-left: 1rem;
+}
+hr{
+    width: 90%;
+   margin-left: 1.7rem;
+   border: 1px solid black;
+}
+@media only screen and (max-width:600px){
+
+    .card{
+        height: 45%;
+        width: 75%;
+    }
+    .quotes h2{
+        font-size: 1.5rem;
+    }
+    #output p{
+        font-size: 1rem;
+        padding-left: 7rem;
+    }
+    hr{
+        margin-left: 1.2rem;
+    }
+    button{
+        width: 30%;
+        height: 50%;
+        margin-right: 2rem;
+        font-size: .8rem;
+}
+}
